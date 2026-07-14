@@ -1,0 +1,26 @@
+{
+  "_instructions": "Fill in whichever of these you have -- leave the rest as null. Save as data/<company_slug>/manual_inputs.json (e.g. data/wipro_limited/manual_inputs.json) and re-run batch_extract.py. Booleans: true means the risk condition IS present (bad); false means it is not (good). Anything left null stays 'N/A' and is excluded from the score rather than assumed safe.",
+
+  "gst_filing_delays_count": null,
+  "roc_filings_noncompliant": null,
+  "statutory_registration_lapses": null,
+
+  "active_insolvency_case": null,
+  "pending_litigation_count": null,
+  "nclt_proceeding_ongoing": null,
+
+  "credit_rating_below_investment": null,
+  "open_charges_pct_total_debt": null,
+
+  "employee_count_yoy_change_pct": null,
+
+  "related_party_pct_revenue": null,
+  "board_member_turnover_count": null,
+  "auditor_changed_unexpectedly": null,
+  "promoter_shareholding_declining": null,
+
+  "down_round_last_funding": null,
+  "high_sector_regulatory_risk": null,
+
+  "adverse_media_coverage": null
+}
