@@ -62,6 +62,8 @@ each company gets its own folder under `data/`.
 ## Architecture / pipeline flow
 
 ![alt text](image.png)
+
+
 `batch_extract.py` is the orchestrator. For each PDF, one company-year
 flows through the pipeline like this:
 
